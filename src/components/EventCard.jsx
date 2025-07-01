@@ -13,7 +13,7 @@ export default function EventCard({ event, handleJoin }) {
             <div className="badge badge-secondary">New!</div>
           </h2>
           <p>{description.substring(0, 50)}...</p>
-          <p className="font-semibold">Event Posted By:</p>
+          <p className="font-semibold">Event Posted By: </p>
           <div className="card-actions justify-between items-center">
             {/* <div className="flex justify-center items-center">
               <img className="w-12" src={serviceProvider.photo} alt="" />
